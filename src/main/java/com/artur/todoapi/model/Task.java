@@ -1,9 +1,12 @@
 package com.artur.todoapi.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.time.LocalDate;
 
+@Data
+@Entity
 public class Task {
 
     @Id
